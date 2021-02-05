@@ -1,0 +1,13 @@
+<testsuite failures="1" name="src/test/java/featurefiles/Karate03.feature" skipped="0" tests="1" time="0.02309">
+  <testcase classname="src.test.java.featurefiles.Karate03" name="xml test case7" time="0.02309">
+    <failure message="Karate03.feature:71 - evaluation (js) failed: xml/info/tool[1]/name == &quot;Karate&quot;, javax.script.ScriptException: ReferenceError: &quot;info&quot; is not defined in &lt;eval&gt; at line number 1&#10;stack trace: jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:470)">Given def xml = ........................................................... passed
+* assert xml/info/tool[1]/name == "Karate" ................................ failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: Karate03.feature:71 - evaluation (js) failed: xml/info/tool[1]/name == "Karate", javax.script.ScriptException: ReferenceError: "info" is not defined in &lt;eval&gt; at line number 1
+stack trace: jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:470)&#13;
+	at ✽.* assert xml/info/tool[1]/name == "Karate" (Karate03.feature:71)&#13;
+
+* assert xml/info/tool[2]/name ==  "IntelliJ" ............................. skipped</failure>
+  </testcase>
+</testsuite>

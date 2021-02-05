@@ -1,0 +1,22 @@
+<testsuite failures="1" name="src/test/java/featurefiles/Karate18ActiveMQ1.feature" skipped="0" tests="1" time="21.402356">
+  <testcase classname="src.test.java.featurefiles.Karate18ActiveMQ1" name="Getting ActiveMQ Server Status" time="21.402356">
+    <failure message="Karate18ActiveMQ1.feature:25 - &#10;org.apache.http.conn.HttpHostConnectException: Connect to 192.168.1.92:8161 [/192.168.1.92] failed: Connection timed out: connect">* def login = ............................................................. passed
+* def auth = login("admin", "admin") ...................................... passed
+* print auth .............................................................. passed
+Given url "http://192.168.1.92:8161" ...................................... passed
+And header Authorization = auth ........................................... passed
+Given path "/api/jolokia" ................................................. passed
+When method get ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: Karate18ActiveMQ1.feature:25 - 
+org.apache.http.conn.HttpHostConnectException: Connect to 192.168.1.92:8161 [/192.168.1.92] failed: Connection timed out: connect&#13;
+	at ✽.When method get (Karate18ActiveMQ1.feature:25)&#13;
+
+Then status 200 ........................................................... skipped
+* print responseType ...................................................... skipped
+* assert responseType == "json" ........................................... skipped
+* match response.value.agent == "1.3.4" ................................... skipped
+* match response.value.info.product == "activemq" ......................... skipped</failure>
+  </testcase>
+</testsuite>

@@ -1,0 +1,117 @@
+16:03:22.625 From karate-config file 
+16:03:22.750 [print] c =  30.0
+16:03:22.750 end of log 
+16:03:22.750 after scenario inside config 
+16:03:22.797 From karate-config file 
+16:03:22.812 after scenario inside config 
+16:03:22.812 From karate-config file 
+16:03:22.828 assertion failed: path: $.tool.version, actual: '0.9.4', expected: '0.9.6', reason: not equal
+16:03:22.828 after scenario inside config 
+16:03:22.828 From karate-config file 
+16:03:22.828 after scenario inside config 
+16:03:22.828 From karate-config file 
+16:03:22.891 after scenario inside config 
+16:03:22.906 From karate-config file 
+16:03:22.953 after scenario inside config 
+16:03:22.953 From karate-config file 
+16:03:23.172 request:
+1 > POST https://www.w3schools.com/xml/tempconvert.asmx/CelsiusToFahrenheit
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 10
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.w3schools.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_251)
+Celsius=40
+
+16:03:23.640 response time in milliseconds: 460.17
+1 < 200
+1 < Cache-Control: private, max-age=0,public
+1 < Content-Type: text/xml; charset=utf-8
+1 < Date: Fri, 05 Feb 2021 10:25:12 GMT
+1 < Server: Microsoft-IIS/7.5
+1 < Vary: Accept-Encoding
+1 < X-AspNet-Version: 4.0.30319
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Powered-By: ASP.NET
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="https://www.w3schools.com/xml/">104</string>
+
+16:03:23.656 [print] {
+  "Cache-Control": [
+    "private, max-age=0,public"
+  ],
+  "Content-Type": [
+    "text/xml; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 05 Feb 2021 10:25:12 GMT"
+  ],
+  "Server": [
+    "Microsoft-IIS/7.5"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-AspNet-Version": [
+    "4.0.30319"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Powered-By": [
+    "ASP.NET"
+  ]
+}
+
+16:03:23.656 [print] 460
+16:03:23.656 [print] <string xmlns="https://www.w3schools.com/xml/">104</string>
+
+16:03:23.656 after scenario inside config 
+16:03:23.844 From karate-config file 
+16:03:23.859 request:
+1 > GET http://dummy.restapiexample.com/api/v1/employees
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: dummy.restapiexample.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_251)
+
+16:03:24.937 response time in milliseconds: 1074.00
+1 < 200
+1 < Cache-Control: no-cache, private, max-age=31536000
+1 < Content-Type: application/json
+1 < Date: Fri, 05 Feb 2021 10:33:23 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Sat, 05 Feb 2022 10:33:23 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Referrer-Policy: 
+1 < Response: 200
+1 < Server: nginx/1.16.0
+1 < Vary: [Accept-Encoding, Accept-Encoding,User-Agent,Origin]
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Ratelimit-Limit: 60
+1 < X-Ratelimit-Remaining: 58
+1 < X-Sol: pub_site
+{"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+
+16:03:24.953 after scenario inside config 
+16:03:24.953 From karate-config file 
+16:03:24.984 [print] non static
+16:03:24.984 [print] non static
+16:03:24.984 after scenario inside config 
+16:03:25.078 From karate-config file 
+16:03:25.078 [print] Basic YWRtaW46YWRtaW4=
+16:03:25.078 request:
+1 > GET http://192.168.1.92:8161/api/jolokia
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Basic YWRtaW46YWRtaW4=
+1 > Connection: Keep-Alive
+1 > Host: 192.168.1.92:8161
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_251)
+
+16:03:30.081 org.apache.http.conn.ConnectTimeoutException: Connect to 192.168.1.92:8161 [/192.168.1.92] failed: connect timed out, http call failed after 5003 milliseconds for URL: http://192.168.1.92:8161/api/jolokia
+16:03:30.081 http request failed: 
+org.apache.http.conn.ConnectTimeoutException: Connect to 192.168.1.92:8161 [/192.168.1.92] failed: connect timed out
+16:03:30.081 after scenario inside config 

@@ -1,0 +1,6 @@
+<testsuite failures="0" name="src/test/java/featurefiles/Karate16WritingResponseToFile.feature" skipped="0" tests="1" time="0.081361">
+  <testcase classname="src.test.java.featurefiles.Karate16WritingResponseToFile" name="Reading Result file" time="0.081361">
+    <system-out>* def data = read("classpath:result.json") ................................ passed
+* print data .............................................................. passed</system-out>
+  </testcase>
+</testsuite>
