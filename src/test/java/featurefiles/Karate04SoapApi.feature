@@ -63,3 +63,4 @@ Feature: karate test suite 4
     * print responseTime
     * assert responseTime <= 2000
     * print responseStatus
+    #printfortestinggithubinte
